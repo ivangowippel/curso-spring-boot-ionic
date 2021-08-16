@@ -75,6 +75,5 @@ public class ClienteResource {
 		Page<ClienteDTO> listDTO = list.map(obj -> new ClienteDTO(obj));
 		return ResponseEntity.ok().body(listDTO);
 	}
-
 	
 }

@@ -13,9 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.ivangowippel.cursoilw.domain.Categoria;
 import com.ivangowippel.cursoilw.domain.Pedido;
-import com.ivangowippel.cursoilw.dto.CategoriaDTO;
 import com.ivangowippel.cursoilw.services.PedidoService;
 
 @RestController
